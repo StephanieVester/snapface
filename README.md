@@ -1,6 +1,6 @@
 # Snapface
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4 following an [OpenClassroom tutorial](https://openclassrooms.com/fr/courses/7471261-debutez-avec-angular/)
 
 ## Development server
 
