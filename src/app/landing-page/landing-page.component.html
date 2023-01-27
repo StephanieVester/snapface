@@ -11,5 +11,10 @@
     >
     de OpenClassroom
   </p>
-  <p>Pour accéder aux Snaps, cliquez ici</p>
+  <p>
+    <a routerLink="facesnaps" routerLinkActive="active">
+      Routing avec un lien
+    </a>
+    <button (click)="goToRoute('facesnaps')">Routing avec une méthode</button>
+  </p>
 </div>

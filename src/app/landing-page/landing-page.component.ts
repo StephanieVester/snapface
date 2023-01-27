@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-landing-page',
   templateUrl: './landing-page.component.html',
@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class LandingPageComponent  {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
+  goToRoute(path: string):void{
+    this.router.navigateByUrl(path);
+  }
 }
